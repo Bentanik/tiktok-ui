@@ -5,7 +5,7 @@ import Following from "~/pages/Following";
 const publicRoutes = [
   { path: "/", component: Home },
   { path: "/following", component: Following },
-  { path: "/@:nickname", component: Following },
+  { path: "/:nickname", component: Following },
   { path: "/upload", component: Following },
   { path: "/search", component: Following },
 ];
